@@ -1,0 +1,29 @@
+name: app4
+namespace: production
+
+deploy:
+  spec:
+    replicaCount: 1
+  image: xxxxxxxxxx.dkr.ecr.eu-west-1.amazonaws.com/app4:xxxxxxxxxx
+  template:
+    spec:
+      containers:
+        resources:
+          limits:
+            cpu: 300m
+            memory: 600Mi
+          requests:
+            cpu: 200m
+            memory: 300Mi
+
+hpa:
+  spec:
+    minReplicas: 1
+    maxReplicas: 10
+    metrics:
+      averageUtilization: 85
+
+service:
+  type: ClusterIP
+  port: 8080
+
