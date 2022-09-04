@@ -3,7 +3,7 @@ namespace: alpha
 deploy:
   spec:
     replicaCount: 1
-  image: "/app1:12590d0d3642b6555e44623799e632a806eee59a"
+  image: "/app1:8224292935b02b689b5c82c6ee5317b8d2d9abea"
   template:
     spec:
       containers:
