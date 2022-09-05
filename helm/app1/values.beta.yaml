@@ -3,7 +3,7 @@ namespace: beta
 deploy:
   spec:
     replicaCount: 1
-  image: 636834414377.dkr.ecr.eu-west-1.amazonaws.com/app1:f746e4ce1de1d2dfb47fc1b4d96202a92192fcb8
+  image: 636834414377.dkr.ecr.eu-west-1.amazonaws.com/app1:395df9eaca4537011aa5226be8ecc3e2215ad19b
   template:
     spec:
       containers:
