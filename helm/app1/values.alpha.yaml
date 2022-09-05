@@ -3,7 +3,7 @@ namespace: alpha
 deploy:
   spec:
     replicaCount: 1
-  image: 636834414377.dkr.ecr.eu-west-1.amazonaws.com/app1
+  image: 636834414377.dkr.ecr.eu-west-1.amazonaws.com/app1:c019cf7410a8cc44941e0d525e0d13c7d829d52a
   template:
     spec:
       containers:
