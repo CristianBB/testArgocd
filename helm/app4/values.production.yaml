@@ -3,7 +3,7 @@ namespace: production
 deploy:
   spec:
     replicaCount: 1
-  image: 636834414377.dkr.ecr.eu-west-1.amazonaws.com/app4:60bf7868ab2c0ec3436346f2b6b7bd94545ab01f
+  image: 636834414377.dkr.ecr.eu-west-1.amazonaws.com/app4:87a05ee84249f43e065eb1a12cb1e7fd79348870
   template:
     spec:
       containers:
